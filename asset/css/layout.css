@@ -1,0 +1,65 @@
+@import "./reset.css";
+@import "./common.css";
+@import "./font.css";
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Hebrew:wght@300;400;500&display=swap");
+
+header {
+  position: relative;
+}
+header .logo {
+  position: absolute;
+  display: block;
+  /* top: 5vw; */
+  right: 11.7vw;
+  z-index: 9;
+}
+header .logo img {
+  width: 10vw;
+}
+header .gnb {
+  position: relative;
+  width: 100%;
+  top: 5vw;
+  display: flex;
+  align-items: center;
+  z-index: 5;
+}
+header .gnb .header-side {
+  position: fixed;
+  padding: 0 4.4vw;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .menu img {
+  width: 3vw;
+  cursor: pointer;
+}
+header .contact {
+  display: flex;
+  justify-content: flex-end;
+  border: 0.1vw solid var(--white);
+  backdrop-filter: blur(10px) !important;
+  padding: 0.6vw 1.1vw;
+  width: 10vw;
+  line-height: 1.5;
+  overflow: hidden;
+  transition: color 0.5s ease;
+}
+header .contact p {
+  font-size: 1vw;
+  line-height: 1.5;
+  color: white;
+}
+.header-side.scroll .menu {
+  filter: invert(1);
+}
+.header-side.scroll .link-contact {
+  backdrop-filter: blur(10px) !important;
+}
+.header-side.scroll .contact {
+  border: 0.1vw solid var(--white);
+  filter: invert(1);
+}

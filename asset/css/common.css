@@ -1,0 +1,68 @@
+.grey {
+  color: #bababa;
+}
+.white {
+  color: #ffffff;
+}
+.white-section {
+  background-color: var(--white);
+  color: var(--black);
+}
+.black-section {
+  background-color: var(--black);
+  color: var(--white);
+}
+.grey-section {
+  background-color: var(--lightgrey);
+  color: var(--black);
+}
+.white-section {
+  background-color: var(--white);
+  color: var(--black);
+}
+
+h1 {
+  font-weight: 300;
+  font-size: 9.5vw;
+  margin-top: -1.5vw;
+  line-height: 0.9;
+  letter-spacing: -0.6vw;
+}
+h2 {
+  font-weight: 300;
+  font-size: 5vw;
+  line-height: 0.9;
+  letter-spacing: -0.3vw;
+}
+h3 {
+  font-weight: 400;
+  font-size: 1.8vw;
+  line-height: 0.9;
+  letter-spacing: -0.03vw;
+}
+h4 {
+  font-weight: 400;
+  font-size: 1.6vw;
+  line-height: 1.4;
+  letter-spacing: -0.05vw;
+}
+h5 {
+  font-weight: 400;
+  font-size: 1.2vw;
+  line-height: 1.6;
+  letter-spacing: -0.05vw;
+}
+p {
+  font-weight: 400;
+  font-size: 1vw;
+  line-height: 1.7;
+  letter-spacing: -0.03vw;
+}
+.headline {
+  margin-top: -2vw;
+  margin-bottom: 5vw;
+  text-align: center;
+}
+.hidden {
+  overflow: hidden;
+}
