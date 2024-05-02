@@ -54,7 +54,7 @@ sections.forEach((section) => {
 //sc-hero
 ScrollTrigger.create({
   trigger: ".sc-hero",
-  start: "30% 50%",
+  start: "20% 0%",
   end: "100% 100%",
   // markers: true,
   onLeave: function () {
